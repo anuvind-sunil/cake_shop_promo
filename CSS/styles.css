@@ -148,7 +148,7 @@ h5 {
 .cake_3 {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 10px;
     margin: 0;
     float: right;
@@ -159,7 +159,7 @@ h5 {
 .cake_2 {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 20px;
     margin: 0;
     float: left;
