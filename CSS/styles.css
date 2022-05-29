@@ -1,99 +1,110 @@
-body{
-   background-color:#E6E6E6;
+html,
+body {
+    height: 100%;
+    
+}
+
+body {
     margin: 0;
     text-align: center;
 }
 
-#main_cake{
+#main_cake {
     height: 300px;
     width: 399.99px;
     text-align: center;
-    
+
 }
 
-.top_container{
-background-color: #E6E6E6;
-color: #1A1010;
-margin: 0;
-padding: 60px;
+.top_container {
+    background-color: #E6E6E6;
+    color: #1A1010;
+    margin: 0;
+    padding: 60px;
 }
 
-.middle_container_1{
+.middle_container_1 {
     background-color: #1A1010;
-    color:#E6E6E6;
+    color: #E6E6E6;
     margin: 0px auto 0px auto;
     text-align: left;
+    position: relative;
+
 }
 
-.middle_container_2{
+.middle_container_2 {
     background-color: #E6E6E6;
     color: #1A1010;
     margin: 0px auto 0px auto;
     text-align: left;
-    
-    
+    position: relative;
+
+
 }
 
-.bottom_container{
-    background: linear-gradient(90deg , #353b18, #8A9652);
+.bottom_container {
+    background: linear-gradient(90deg, #353b18, #8A9652);
     color: #ffffff;
-    margin:0;
+    margin: 0;
     padding: 15px;
     font-size: 15px;
-    text-align: left; 
+    text-align: left;
     font-family: 'Play', sans-serif;
 }
 
 
-h1{
+h1 {
     font-family: 'Cinzel', serif;
     text-align: center;
     margin: 0;
     font-size: 50px;
     padding-top: 20px;
-    
+
 }
 
-h1:hover{
+h1:hover {
     color: #B20703;
     text-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
 
-h2{
+h2 {
     margin: 0;
     text-align: center;
     padding-top: 30px;
     font-size: 30px;
     font-family: 'Cuprum', sans-serif;
     padding-left: 8px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 
-    
+
 }
 
-p{  text-align: left;
+p {
+    text-align: left;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 100px 50px 50px;
     line-height: 2;
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.one{
+.one {
     position: absolute;
     left: 15px;
     top: 20px;
     font-size: 20px;
     font-family: 'Comfortaa', cursive;
 }
-.two{
+
+.two {
     position: absolute;
     left: 97.55px;
     top: 20px;
     font-size: 20px;
     font-family: 'Comfortaa', cursive;
 }
-.three{
+
+.three {
     position: absolute;
     left: 168.753px;
     top: 20px;
@@ -101,7 +112,7 @@ p{  text-align: left;
     font-family: 'Comfortaa', cursive;
 }
 
-h4{
+h4 {
     margin: 4px;
     font-size: 30px;
     text-align: center;
@@ -110,39 +121,42 @@ h4{
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 52px rgb(255, 255, 255);
 }
 
-.aone{
+.aone {
     text-decoration: none;
     color: #B20703;
 }
-.atwo{
+
+.atwo {
     text-decoration: none;
     color: #8A9652;
 }
-.athree{
+
+.athree {
     text-decoration: none;
     color: #1A1010;
 }
 
-a:hover{
-    color:#CF6D30;
+a:hover {
+    color: #CF6D30;
 }
 
-h5{
+h5 {
     margin: 0;
 }
 
-.cake_1 ,.cake_3{
-height: 200px;
-width: 200px;
-border-radius: 50%;
-padding: 10px;
-margin: 0;
-float: right;
-margin-right: 30px;
-padding-top: 40px;
+.cake_1,
+.cake_3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0;
+    float: right;
+    margin-left: 30px;
+
 }
 
-.cake_2{
+.cake_2 {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -150,10 +164,9 @@ padding-top: 40px;
     margin: 0;
     float: left;
     margin-right: 30px;
-    padding-top: 40px;
 }
 
-h3{
+h3 {
     padding-left: 50px;
     font-family: 'Comfortaa', cursive;
     font-size: 30px;
@@ -161,11 +174,21 @@ h3{
 }
 
 
-p{
-    padding:0 100px 50px 50px;
-    font-size: 20px;
-}
 
-.ending{
+.ending {
     padding-bottom: 160px;
 }
+
+
+.align_left {
+    width: 75%;
+    position: relative;
+
+}
+
+.align_right {
+    width: 75%;
+    position: relative;
+    left: calc(calc(100% - 70%));
+}
+
