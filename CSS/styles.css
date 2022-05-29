@@ -82,7 +82,7 @@ h2 {
 p {
     text-align: left;
     margin: 0 auto;
-    padding: 0 100px 50px 50px;
+    padding: 0 10px 50px 10px;
     line-height: 2;
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
@@ -167,7 +167,7 @@ h5 {
 }
 
 h3 {
-    padding-left: 50px;
+    padding-left: 10px;
     font-family: 'Comfortaa', cursive;
     font-size: 30px;
     color: #8A9652;
@@ -183,12 +183,14 @@ h3 {
 .align_left {
     width: 75%;
     position: relative;
+    text-align: left;
 
 }
 
 .align_right {
+    text-align: left;
     width: 75%;
     position: relative;
-    left: calc(calc(100% - 70%));
+    left: calc(calc(100% - 75%));
 }
 
