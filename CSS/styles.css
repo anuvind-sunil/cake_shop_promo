@@ -74,7 +74,7 @@ h2 {
     font-size: 30px;
     font-family: 'Cuprum', sans-serif;
     padding-left: 8px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 
 
 }
@@ -181,6 +181,7 @@ h3 {
 
 
 .align_left {
+    padding-bottom: 50px;
     width: 75%;
     position: relative;
     text-align: left;
@@ -188,6 +189,7 @@ h3 {
 }
 
 .align_right {
+    padding-bottom: 50px;
     text-align: left;
     width: 75%;
     position: relative;
